@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final: Skillet (Información de los Miembros)</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+	</head>
+	
+	<body background="imagenes/background.jpg" text="white">
+		<marquee><font face="Trebuchet MS">Descubre cuanto sabes del grupo clicando <a href="FormularioRegistro.html">aquí</a></font></marquee>
+		<a name="Inicio"></a>
+		<h1 align="center"><font face="Arial Black"><u>Información de los Miembros</u></font></h1>
+		<table align="center" cellspacing="50">
+			<tr>
+				<td><font size="5" face="Reem Kufi"><a href="index.html">Resumen</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="Historia.html">Historia</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="Canciones.html">Canciones</a></font></td>
+			</tr>
+		</table>
+		<font face="Bahnschrift SemiBold"><table border="5" align="center">
+		<caption><marquee><font face="Trebuchet MS">Si quieres saber más acerca de algún miembro clica en su imagen</font></marquee></caption>
+			<tr>
+				<td align="center"><u>John Cooper</u></td>
+				<td align="center"><u>Información</u></td>
+				<td align="center"><u>Solo</u></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="JohnCooper.html"><img src="imagenes/JohnCooper.jpg" width="350px"></a></td>
+				<td><ul>
+					<li>Nombre Completo: John Landrum Cooper</li>
+					<li>Nacimiento: 7 de abril de 1975</li>
+					<li>Nacionalidad: Estadounidense</li>
+					<li>Ocupación: Compositor, cantante y bajista</li>
+					<li>Años activo: 1996-Actualidad</li>
+					<li>Tipo de voz: Barítono</li>
+				</ul></td>
+				<td align="center"><video controls src="videos/JohnCooperSolo.mp4" width="500px"></video></td>
+			</tr>
+			<tr>
+				<td align="center"><u>Korey Cooper</u></td>
+				<td align="center"><u>Información</u></td>
+				<td align="center"><u>Solo</u></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="KoreyCooper.html"><img src="imagenes/KoreyCooper.jpg" width="350px"></a></td>
+				<td><ul>
+					<li>Nombre Completo: Korene Marie Pingitore</li>
+					<li>Nacimiento: 21 de julio de 1972</li>
+					<li>Nacionalidad: Estadounidense</li>
+					<li>Ocupación: Teclista</li>
+					<li>Años activa: 1996-Actualidad</li>
+					<li>Instrumentos: Teclados, guitarra, bajo</li>
+				</ul></td>
+				<td align="center"><video controls src="videos/KoreyCooperSolo.mp4"></video></td>
+			</tr>
+			<tr>
+				<td align="center"><u>Jen Ledger</u></td>
+				<td align="center"><u>Información</u></td>
+				<td align="center"><u>Solo</u></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="JenLedger.html"><img src="imagenes/JenLedger.jpg" width="450px"></a></td>
+				<td><ul>
+					<li>Nombre Completo: Jennifer Carole Ledger</li>
+					<li>Nacimiento: 8 de diciembre de 1989</li>
+					<li>Nacionalidad: Británica</li>
+					<li>Ocupación: Baterista, cantante, compositora</li>
+					<li>Años activa: 2008-Actualidad</li>
+					<li>Instrumentos: Voz, batería</li>
+				</ul></td>
+				<td><video controls src="videos/JenLedgerSolo.mp4" width="500px"></video></td>
+			</tr>
+			<tr>
+				<td align="center"><u>Seth Morrison</u></td>
+				<td align="center"><u>Información</u></td>
+				<td align="center"><u>Solo</u></td>
+			</tr>
+			<tr>
+				<td align="center"><a href="SethMorrison.html"><img src="imagenes/SethMorrison.png" width="450px"></a></td>
+				<td><ul>
+					<li>Nombre Completo: Seth Morrison</li>
+					<li>Nacimiento: 19 de febrero de 1988</li>
+					<li>Nacionalidad: Estadounidense</li>
+					<li>Ocupación: Músico y guitarrista</li>
+					<li>Género: Hard rock</li>
+					<li>Instrumento: Guitarra</li>
+				</ul></td>
+				<td align="center"><video controls src="videos/SethMorrisonSolo.mp4" width="500px"></td>
+			</tr>
+		</table></font>
+		<a href="#Inicio"><h2 align="center"><font face="Reem Kufi">Inicio</font></h2></a>
+	</body>
+</html>

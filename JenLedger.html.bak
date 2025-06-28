@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final: Skillet (Jen Ledger)</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+	</head>
+	
+	<body background="imagenes/background.jpg" text="white">
+		<marquee><font face="Trebuchet MS">Descubre cuanto sabes del grupo clicando <a href="FormularioRegistro.html">aquí</a></font></marquee>
+		<a name="Inicio"></a>
+		<h1 align="center"><font face="Arial Black"><u>Jen Ledger</u></font></h1>
+		<table align="center" cellspacing="50">
+			<tr>
+				<td><font size="5" face="Reem Kufi"><a href="index.html">Resumen</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="Historia.html">Historia</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="Canciones.html">Canciones</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="InformacionMiembros.html">Información de los miembros</a></font></td>
+			</tr>
+		</table>
+		<img src="imagenes/JenLedger.jpg" width="450px" align="right">
+		<p><font face="Trebuchet MS">Jennifer Carole Ledger es la baterista, compositora y corista de la banda de rock Skillet. 
+		También es la vocalista y líder de su propia banda LEDGER, proyecto que lanzó su primer EP en abril de 2018. 
+		A los 18 años se convirtió en la baterista cuando se retiró el exbaterista de la banda Lori Peters.</font></p>
+		<p><font face="Trebuchet MS">Nació en Coventry, Inglaterra. Llegó a los Estados Unidos a los 16 años sus estudios los realizó en Light School of Worship en Kenosha, Wisconsin</font></p>
+		<h2><font face="Arial Black"><u>Carrera</u></font></h2>
+		<p>Viajó como baterista de Skillet en el "Tour Comatose", donde cantó como solista en la canción 
+		"Mi espera." o "Yours to Hold" Ledger canta en el tema 'Hero' en su más reciente y 'Awake & Alive' en el álbum Awake. 
+		También hace los coros en la canción "Monster" en el remix recientemente presentado como la introducción a un pódcast oficial de la banda.</p>
+		<p>El año 2018 lanzó su EP debut como solista, bajo el título de "LEDGER", con su lead single "Not Dead Yet" el cual cuenta con 6 canciones,
+		incluyendo una colaboración con John Cooper en el tema "Warrior".
+		Además irá de gira junto a Skillet con su propia banda "LEDGER" y también como baterista y vocales de Skillet.</p>
+		<a href="#Inicio"><h2>Inicio</h2></a>
+	</body>
+</html>

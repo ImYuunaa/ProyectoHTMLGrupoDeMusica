@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final: Skillet (Seth Morrison)</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+	</head>
+	
+	<body background="imagenes/background.jpg" text="white">
+		<marquee>Descubre cuanto sabes del grupo clicando <a href="FormularioRegistro.html">aquí</a></marquee>
+		<a name="Inicio"></a>
+		<h1 align="center"><u>Seth Morrison</u></h1>
+		<table align="center" cellspacing="50">
+			<tr>
+				<td><font size="5"><a href="index.html">Resumen</a></font></td>
+				<td><font size="5"><a href="Historia.html">Historia</a></font></td>
+				<td><font size="5"><a href="Canciones.html">Canciones</a></font></td>
+				<td><font size="5"><a href="InformacionMiembros.html">Información de los miembros</a></font></td>
+			</tr>
+		</table>
+		<img src="imagenes/SethMorrison.png" width="550px" align="right">
+		<p>Jacob Seth Morrison (19 de febrero de 1988) es un músico estadounidense y el guitarrista principal del grupo Skillet. 
+		Ingresó a la banda en abril de 2011 luego de que Ben Kasica abandonara la banda.</p>
+		<h2><u>Vida personal</u></h2>
+		<p>En varias entrevistas, Seth expresó su amor por el deporte. Sus equipos favoritos son: NCAA's Ohio State Buckeyes, MLB's Cincinnati Reds y NFL's Cincinnati Bengals.
+		En cuanto a creencias, explica que su familia fue siempre muy cristiana, esto lo llevó a serlo también, a la temprana edad de 7 años.</p>
+		<h2><u>Carrera (Skillet)</u></h2>
+		<p>Durante una entrevista en YouTube, Seth dijo que había escuchado acerca de la búsqueda de Skillet por un nuevo guitarrista, así que se contactó con su amigo 
+		Tim Rosenau (guitarrista de TobyMac) para obtener más información. 
+		Sin embargo, nunca hubo respuesta por parte de él. Poco después, Seth recibió un correo electrónico del mánager 
+		de Skillet, Scotty Rock, preguntando por fotos y el testimonio de Seth, entre otras cosas. Tiempo después, Morrison recibió una llamada de un número desconocido,
+		así que dejó el teléfono sonar. Seth no iba a llamar de nuevo, en un principio, pero un "instinto" (según afirma él) lo hizo hacerlo. 
+		La llamada llegó al correo de voz de Scotty Rock, quien poco después volvió a llamarlo, esta vez, Seth sí contestó. 
+		Durante la llamada John Cooper se unió a la conversación, diciéndole a Seth que debía apresurarse a ir, ya que solo tenía una semana para prepararse y aprenderse las 
+		canciones. Actualmente, Seth está hace más de 9 años en Skillet, y ha grabado tres álbumes de estudio junto a ellos.</p>
+		<a href="#Inicio"><h2>Inicio</h2></a>
+	</body>
+</html>

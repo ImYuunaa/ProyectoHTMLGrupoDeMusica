@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final: Skillet (Canciones)</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+	</head>
+	
+	<body background="imagenes/background.jpg" text="white">
+		<marquee><font face="Trebuchet MS">Descubre cuanto sabes del grupo clicando <a href="FormularioRegistro.html">aquí</a></font></marquee>
+		<a name="Inicio"></a>
+		<h1 align="center"><font face="Arial Black"><u>Canciones de Skillet</u></font></h1>
+		<table align="center" cellspacing="50">
+			<tr>
+				<td><font size="5" face="Reem Kufi"><a href="index.html">Resumen</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="Historia.html">Historia</a></font></td>
+				<td><font size="5" face="Reem Kufi"><a href="InformacionMiembros.html">Información de los miembros</a></font></td>
+			</tr>
+		</table>
+				
+		<p><font face="Trebuchet MS">Skillet a lo largo de su historia ha producido distintos albumes, un ejemplo es el albúm "Comatose", el cúal reune algunas de las mejores canciones de Skillet.</font></p>
+		<h2><font face="Arial Black"><u>Albúm "Comatose"</u></font></h2>
+		<p><font face="Trebuchet MS">Comatose es el sexto álbum de estudio de la banda.
+		Fue publicado el 3 de octubre de 2006, grabado entre febrero y abril de ese mismo año, <br>
+		sus géneros son:
+		<ul>
+			<li>Metal alternativo</li>
+			<li>Metal cristiano</li>
+		</ul>
+		Su duración estimada es de 41 minutos y fue producido por las siguientes discográficas:
+		<ul>
+			<li>Ardent Records</li>
+			<li>Lava Records</li>
+			<li>Atlantic</li>
+		</ul>
+		<br> Incluye las siguientes canciones:</font></p>
+		<font face="Bahnschrift SemiBold"><table border="5">
+			<tr>
+				<td>N.º</td>
+				<td>Título</td>
+				<td align="center">Duración</td>
+				<td align="center">Canción</td>
+			</tr>
+			<tr>
+				<td>1.
+				<td>"Rebirthing"</td>
+				<td align="center">3:53</td>
+				<td><audio controls src="musica/Rebirthing.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>"The Last Night"</td>
+				<td align="center">3:32</td>
+				<td><audio controls src="musica/TheLastNight.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>"Yours to Hold"</td>
+				<td align="center">3:42</td>
+				<td><audio controls src="musica/YourstoHold.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>"Better Than Drugs"</td>
+				<td align="center">3:57</td>
+				<td><audio controls src="musica/BetterThanDrugs.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>"Comatose"</td>
+				<td align="center">3:50</td>
+				<td><audio controls src="musica/Comatose.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>"The Older I Get"</td>
+				<td align="center">3:38</td>
+				<td><audio controls src="musica/TheOlderIGet.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>"Those Nights"</td>
+				<td align="center">3:46</td>
+				<td><audio controls src="musica/ThoseNights.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>"Falling Inside the Black"</td>
+				<td align="center">3:30</td>
+				<td><audio controls src="musica/FallingInsideTheBlack.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>"Say Goodbye"</td>
+				<td align="center">4:16</td>
+				<td><audio controls src="musica/SayGoodbye.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>"Whispers in the Dark"</td>
+				<td align="center">3:24</td>
+				<td><audio controls src="musica/WhispersInTheDark.mp3"></audio></td>
+			</tr>
+			<tr>
+				<td>11.</td>
+				<td>"Looking for Angels"</td>
+				<td align="center">4:31</td>
+				<td><audio controls src="musica/LookingforAngels.mp3"></audio></td>
+			</tr>
+		</font></table>
+		<hr>
+		<p><font face="Trebuchet MS">A su vez, tanto de Skillet como de otras bandas musicales se suelen crear versiones de sus canciones con una velocidad aumentada
+		conocidas como "Nightcore", un ejemplo podemos encontrarlo en la canción "Comatose"</font></p>
+		<video controls src="videos/NightcoreComatose.mp4"></video>
+		<a href="#Inicio"><h2 align="center"><font face="Arial Black">Inicio</font></h2></a>
+	</body>
+</html>

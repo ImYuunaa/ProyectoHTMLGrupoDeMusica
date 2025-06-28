@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Práctica final: Skillet (Formulario)</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+	</head>
+	
+	<body background="imagenes/background.jpg" text="white">
+		<a name="Inicio"></a>
+		<h1 align="center"><u>¿Cuánto sabes de Skillet?</u></h1>
+		<table align="center" cellspacing="50">
+			<tr>
+				<td><font size="5"><a href="index.html">Resumen</a></font></td>
+				<td><font size="5"><a href="Historia.html">Historia</a></font></td>
+				<td><font size="5"><a href="Canciones.html">Canciones</a></font></td>
+				<td><font size="5"><a href="InformacionMiembros.html">Información de los miembros</a></font></td>
+			</tr>
+		</table>
+		<form action="MensajeFinalFormulario.html" method="get" enctype="text/plain">
+			<table align="center">
+				<tr>
+					<td><label>Introduce tu nombre</label></td>
+						<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Introduce tus apellidos</label></td>
+						<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Verifica que eres un humano</label></td>
+					<td><label>Introduce la Vigésima letra del abecedario</label><br>
+						<input type="password"></td>
+				</tr>
+				<tr>
+					<td><label>¿En que año se fundó Skillet?</label></td>
+						<td><input type="radio" name="FundacionSkillet"><label>1986</label>
+						<input type="radio" name="FundacionSkillet"><label>1968</label>
+						<input type="radio" name="FundacionSkillet"><label>1996</label>
+						<input type="radio" name="FundacionSkillet"><label>2000</label></td>
+				</tr>
+				<tr>
+					<td><label>¿Cuáles son los géneros de la música de Skillet?</label></td>
+						<td><input type="checkbox"><label>Rock Cristiano</label><br>
+						<input type="checkbox"><label>Reggaeton</label><br>
+						<input type="checkbox"><label>Reggaeton Cristiano</label><br>
+						<input type="checkbox"><label>Metal Cristiano</label><br>
+						<input type="checkbox"><label>Jazz</label><br>
+						<input type="checkbox"><label>Flamenco</label><br>
+						<input type="checkbox"><label>Hard Rock</label><br>
+						<input type="checkbox"><label>Metal Alternativo</label><br>
+						<input type="checkbox"><label>Rock Sinfónico</label><br>
+						<input type="checkbox"><label>Metal Progresivo</label></td>
+				</tr>
+				<tr>
+					<td><label>¿Dónde nació John Cooper?</label></td>
+						<td><select name="¿Dónde nació John Cooper?">
+							<option value="">Estados Unidos
+							<option value="">Inglaterra
+							<option value="">España
+							<option value="">Francia
+						</select></td>
+				</tr>
+				<tr>
+					<td><label>¿Dónde nació Korey Cooper?</label></td>
+						<td><select name="¿Dónde nació Korey Cooper?">
+							<option value="">Estados Unidos
+							<option value="">Inglaterra
+							<option value="">España
+							<option value="">Francia
+						</select></td>
+				</tr>
+				<tr>
+					<td><label>¿Dónde nació Jen Ledger?</label></td>
+						<td><select name="¿Dónde nació Jen Ledger?">
+							<option value="">Estados Unidos
+							<option value="">Inglaterra
+							<option value="">España
+							<option value="">Francia
+						</select></td>
+				</tr>
+				<tr>
+					<td><label>¿Dónde nació Seth Morrison?</label></td>
+						<td><select name="¿Dónde nació Seth Morrison?">
+							<option value="">Estados Unidos
+							<option value="">Inglaterra
+							<option value="">España
+							<option value="">Francia
+						</select></td>
+				</tr>
+				<tr>
+					<td><label>¿Con quién formó John Cooper la banda Skillet?</label></td>
+						<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>¿Quién es la esposa de John Cooper?</label></td>
+						<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>John Cooper y su esposa no tienen un anillo físico,<br> lo tienen tatuado</label></td>
+						<td><input type="radio" name="Anillo"><label>Verdadero</label>
+						<input type="radio" name="Anillo"><label>Falso</label></td>
+				</tr>
+				<tr>
+					<td><label>Jen Ledger formó su propia banda,¿Cuál es su nombre?</label></td>
+						<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td><label>Seth Morrison es un amante del deporte, sus equipos favoritos son...</label></td>
+						<td><input type="checkbox"><label>NCAA's Ohio State Buckeyes</label><br>
+						<input type="checkbox"><label>MLB's Cincinnati Reds</label><br>
+						<input type="checkbox"><label>NFL's Cincinnati Bengals</label><br>
+						<input type="checkbox"><label>FC Barcelona</label><br>
+						<input type="checkbox"><label>Real Madrid</label><br>
+						<input type="checkbox"><label>Betis</label></td>
+				</tr>
+				<tr>
+					<td><label>¿Que te ha parecido el test?</label>
+						<td><textarea cols="40" rows="5" maxlength="250"></textarea></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2"><input type="submit" value="Envíar">
+					<input type="reset" value="Borrar"></td>
+				</tr>
+			</table>
+		</form>
+		<a href="#Inicio"><h2 align="center">Inicio</h2></a>
+	</body>
+</html>
