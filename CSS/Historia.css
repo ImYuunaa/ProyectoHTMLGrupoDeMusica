@@ -1,0 +1,97 @@
+/* Estilo base */
+.pagina-historia {
+  background-image: url("C:/Users/Nico/Documents/GitHub/ProyectoHTMLGrupoDeMusica/imagenes/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(190, 190, 189);
+  font-family: 'Reem Kufi', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding-top:20px;
+}
+
+header h1 {
+  font-size: 80px;
+  text-decoration: underline;
+  background-image: url("C:/Users/Nico/Documents/GitHub/ProyectoHTMLGrupoDeMusica/imagenes/Fondo.jpg");
+  background-size: 150px;
+}
+
+/* Navegación */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.menu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffc107;
+}
+
+/* Aviso inicial (reemplazo del marquee) */
+.aviso {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.6);
+  font-size: 16px;
+}
+
+/* Secciones de contenido */
+.contenido {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contenido h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+.contenido p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  margin: 40px 0;
+}
+#enlace-inicio{
+     width: 200px;
+
+     text-align: center;
+}
+.enlace-menu {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+.enlace-menu:hover {
+  color: #ffc107; /* Cambia de color al pasar el mouse */
+}
+#white{
+    color:white
+}

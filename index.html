@@ -3,59 +3,73 @@
 	<head>
 		<title>Práctica final: Skillet</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/index.css">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="imagenes/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	
-	<body background="imagenes/background.jpg" text="white">
-		<marquee><font face="Trebuchet MS">Descubre cuanto sabes del grupo clicando <a href="FormularioRegistro.html">aquí</a></font></marquee>
+	<body style="background-image: url('imagenes/background.jpg'); color: rgb(255, 239, 239);">
+		<div class="caja-ejemplo">
+			<p id="Encabezado">Descubre cuánto sabes del grupo haciendo clic <a href="FormularioRegistro.html">aquí</a>
+		</p>
+		</div>
 		<a name="Inicio"></a>
-		<h1 align="center"><font face="Arial Black"><u>Skillet</u></font></h1>
+		<h1 id="Titulo">Skillet</h1>
 		<table align="center" cellspacing="50">
 			<tr>
-				<td><font size="5" face="Reem Kufi"><a href="Historia.html">Historia</a></font></td>
-				<td><font size="5" face="Reem Kufi"><a href="Canciones.html">Canciones</a></font></td>
-				<td><font size="5" face="Reem Kufi"><a href="InformacionMiembros.html">Información de los miembros</a></font></td>
+				<td><a href="Historia.html" class="enlace-menu">Historia</a></td>
+				<td><td><a href="Canciones.html" class="enlace-menu">Canciones</a></td>
+				<td><td><a href="InformacionMiembros.htm" class="enlace-menu">Información de los miembros</a></td>
 			</tr>
-		</table>
-		
-		<p align="center"><font face="Trebuchet MS">Skillet es una banda de rock cristiano y metal cristiano​ originaria de Tennessee,
+		</table><div class="contenedor-info">
+		<p align="center" Id="contenido">Skillet es una banda de rock cristiano y metal cristiano​ originaria de Tennessee,
 		fundada en 1996 y conformada por John y Korey Cooper, Seth Morrison y Jen Ledger.
 		El grupo ha publicado once álbumes de estudio, el más reciente, Dominion, en el 2022. Dos de sus discos, Collide y Comatose recibieron nominación al Grammy.
-		El sonido de la banda se ha descrito como rock alternativo, hard rock, y rock sinfónico, y ha sido caracterizada por elementos electrónicos.</font></p>
-		<p align="center"><img src="imagenes/SkilletGrupo.png" width="500"></p>
-		<font face="Bahnschrift SemiBold"><table border="5" align="center">
-			<caption>Ficha técnica del grupo</caption>
-			<tr align="center">
-				<td>Origen</td>
-				<td>Memphis, Tennessee, Estados Unidos</td>
-			</tr>
-			<tr>
-				<td align="center">Género(s)</td>
-				<td><ul>
-					<li>Rock Crsitiano</li>
-					<li>Metal Cristiano</li>
-					<li>Metal Progresivo</li>
-					<li>Hard Rock</li>
-					<li>Metal Alternativo</li>
-					<li>Rock Sinfónico</li>
-				</ul></td>
-			</tr>
-			<tr align="center">
-				<td>Período de actividad</td>
-				<td>1996-Presente</td>
-			</tr>
-			<tr align="center">
-				<td>Discográfica(s)</td>
-				<td>Atlantic Records</td>
-			</tr>
-			<tr align="center">
-				<td>Miembros</td>
-				<td>John Cooper<br>
-				Korey Cooper<br>
-				Jen Ledger<br>
-				Seth Morrison</td>
-			</tr>
-		</table></font>
-		<a href="#Inicio"><h2 align="center"><font face="Reem Kufi">Inicio</font></h2></a>
+		El sonido de la banda se ha descrito como rock alternativo, hard rock, y rock sinfónico, y ha sido caracterizada por elementos electrónicos.</p>
+  <!-- Imagen del grupo -->
+  <div class="imagen-grupo">
+    <img src="imagenes/SkilletGrupo.png" alt="Skillet Grupo">
+  </div>
+
+  <!-- Tabla de ficha técnica -->
+  <table class="tabla-skillet">
+    <caption>Ficha técnica del grupo</caption>
+    <tr>
+      <th>Origen</th>
+      	<td>Memphis, Tennessee, Estados Unidos</td>
+    </tr>
+    <tr>
+      <th>Género(s)</th>
+      	<td>
+       	 <ul>
+          <li>Rock Cristiano</li>
+          <li>Metal Cristiano</li>
+          <li>Metal Progresivo</li>
+          <li>Hard Rock</li>
+          <li>Metal Alternativo</li>
+          <li>Rock Sinfónico</li>
+       	 </ul>
+      	</td>
+    </tr>
+    <tr>
+      <th>Período de actividad</th>
+    	<td>1996 - Presente</td>
+    </tr>
+    <tr>
+      <th>Discográfica(s)</th>
+ 		<td>Atlantic Records</td>
+    </tr>
+    <tr>
+      <th>Miembros</th>
+     	<td>
+    	    John Cooper<br>
+      	  Korey Cooper<br>
+     	   Jen Ledger<br>
+     	   Seth Morrison
+      </td>
+    </tr>
+  </table>
+</div>
+	<h2><a href="#Inicio" class="enlace-menu" id="enlace-inicio">Inicio</a></h2>
 	</body>
 </html>
